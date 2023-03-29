@@ -194,3 +194,15 @@
     display: flex;
   }
   
+  #bth{
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #cac6c6;
+    width: 100px;
+    box-shadow: 2px 2px 6px #eee, -2px -2px 6px #5d5d5d;
+  }
