@@ -1,0 +1,56 @@
+const contentDiv = document.createElement("div");
+contentDiv.classList.add("content");
+
+const titleH2 = document.createElement("h2");
+titleH2.classList.add("title");
+titleH2.textContent = "CAIRO";
+
+const briefDiv = document.createElement("div");
+briefDiv.classList.add("brief");
+
+const fajrP = document.createElement("p");
+fajrP.textContent = "Fajr:";
+const fajrSpan = document.createElement("span");
+fajrSpan.textContent = "4:17";
+fajrP.appendChild(fajrSpan);
+briefDiv.appendChild(fajrP);
+
+const sunriseP = document.createElement("p");
+sunriseP.textContent = "Sunrise:";
+const sunriseSpan = document.createElement("span");
+sunriseSpan.textContent = "2:20";
+sunriseP.appendChild(sunriseSpan);
+briefDiv.appendChild(sunriseP);
+
+const dhuhrP = document.createElement("p");
+dhuhrP.textContent = "Dhuhr:";
+const dhuhrSpan = document.createElement("span");
+dhuhrSpan.textContent = "2:20";
+dhuhrP.appendChild(dhuhrSpan);
+briefDiv.appendChild(dhuhrP);
+
+const asrP = document.createElement("p");
+asrP.textContent = "Asr:";
+const asrSpan = document.createElement("span");
+asrSpan.textContent = "2:20";
+asrP.appendChild(asrSpan);
+briefDiv.appendChild(asrP);
+
+const maghribP = document.createElement("p");
+maghribP.textContent = "Maghrib:";
+const maghribSpan = document.createElement("span");
+maghribSpan.textContent = "2:20";
+maghribP.appendChild(maghribSpan);
+briefDiv.appendChild(maghribP);
+
+const ishaP = document.createElement("p");
+ishaP.textContent = "Isha:";
+const ishaSpan = document.createElement("span");
+ishaSpan.textContent = "2:20";
+ishaP.appendChild(ishaSpan);
+briefDiv.appendChild(ishaP);
+
+contentDiv.appendChild(titleH2);
+contentDiv.appendChild(briefDiv);
+
+document.body.appendChild(contentDiv);
