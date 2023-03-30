@@ -12,6 +12,8 @@ bth.addEventListener('click', () => {
       const asrP = document.createElement('p');
       const maghribP = document.createElement('p');
       const ishaP = document.createElement('p');
+      const title = document.getElementsByClassName('title')[0];
+      title.innerHTML=`${inp.value}`;
       fajrP.innerHTML = `Fajr: <span>${data.data.timings.Fajr}</span>`;
       sunriseP.innerHTML = `Sunrise: <span>${data.data.timings.Sunrise}</span>`;
       dhuhrP.innerHTML = `Dhuhr: <span>${data.data.timings.Dhuhr}</span>`;
@@ -28,5 +30,5 @@ bth.addEventListener('click', () => {
       breefDiv.appendChild(ishaP);
     })
     // eslint-disable-next-line no-console
-    .catch (error) => console.error(error);
-});
+    .catch((error) => console.error(error));
+  });
