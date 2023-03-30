@@ -193,14 +193,15 @@
   .search {
     display: flex;
   }
-  
+
+    
   #bth{
     border: none;
     outline: none;
     padding: 12px 20px;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 12px;
     border-radius: 5px;
     background-color: #cac6c6;
     width: 100px;
